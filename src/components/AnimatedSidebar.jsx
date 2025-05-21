@@ -86,7 +86,6 @@ export default function AnimatedSidebar() {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               variants={containerVariants}
-              initial="rest"
               whileHover="hover"
             >
               {dots.map(dot => (
